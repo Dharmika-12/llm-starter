@@ -1,0 +1,16 @@
+# Environment variables
+.env
+.env.*
+
+# Allow the example template
+!.env.example
+
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE settings
+.vscode/
