@@ -16,7 +16,7 @@ client = genai.Client(api_key=api_key)
 # Send a prompt
 response = client.models.generate_content(
     model="gemini-3.5-flash-lite",
-    contents="Explain Artificial Intelligence in simple words."
+    contents="What is virtual environment"
 )
 
 # Display Gemini's response
